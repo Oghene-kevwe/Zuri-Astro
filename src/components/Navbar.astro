@@ -1,0 +1,38 @@
+---
+import Icon from "astro-icon";
+---
+
+<nav class="bg-[#DFCCC2] text-[#FFFFFF] p-2 md:p-8">
+  <div class="flex justify-between items-center">
+    <!-- nav links -->
+    <div>
+      <button class="md:hidden">
+        <Icon id="toggleButton" name="mdi:menu" width={25} />
+      </button>
+
+      <div class="text-sm md:text-base hidden md:block " id="linkContainer">
+        <ul class=" flex flex-col md:flex-row justify-between  gap-4 md:text-lg">
+          <li class="hover:text-red-500">
+            <a href="#">Menu</a>
+          </li>
+          <li class="hover:text-red-500">
+            <a href="#">About & Careers</a>
+          </li>
+          <li class="hover:text-red-500">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- logo -->
+    <p class="font-bold tracking-wider text-3xl">debonaire</p>
+    <div class="text-sm w-fit text-right hidden md:block md:text-base">
+      <a
+        class="text-[#F95454] w-fit underline"
+        href="mailto:yourEmail@example.com">Book an Appointment</a
+      >
+    </div>
+  </div>
+</nav>
+
+<script></script>

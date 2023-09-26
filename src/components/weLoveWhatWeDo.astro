@@ -1,0 +1,41 @@
+---
+import loveWhatWeDo from "../assets/loveWhatWeDo.png";
+import loveWhatWeDo2 from "../assets/loveWhatWeDo2.png";
+import loveWhatWeDo3 from "../assets/loveWhatWeDo3.png";
+---
+
+<section class="bg-[#C5CEBD] pt-[8rem] px-[4vw] md:px-16 relative">
+  <div class="w-[300px] relative mb-12">
+    <!-- image 1 -->
+    <img src={loveWhatWeDo.src} alt="love what we do" />
+    <!-- content -->
+    <div>
+      <p
+        class="text-lg md:text-3xl text-white pt-4 md:absolute top-10 w-full left-[16rem]"
+      >
+        We love what we do. We are up to the task.
+      </p>
+      <p
+        class="text-left text-black md:absolute bottom-12 w-full -right-[22rem]"
+      >
+        Cuts tailor made for your hair, making it easy for you to recreate your
+        look every day. Debonaire team, makes you feel happy at ease and work
+        with you to make you your most lovely.
+      </p>
+    </div>
+  </div>
+  <!-- image 2 -->
+  <div class="ml-auto w-fit relative -bottom-10 z-20">
+    <img src={loveWhatWeDo2.src} alt="love what we do" />
+  </div>
+  <!-- image 3 -->
+  <div
+    class="hidden md:block absolute bottom-[20rem] z-10 h-[200px] w-[200px] -right-[5rem]"
+  >
+    <img
+      src={loveWhatWeDo3.src}
+      alt="love what we do"
+      class="rounded-full w-full h-full object-cover"
+    />
+  </div>
+</section>

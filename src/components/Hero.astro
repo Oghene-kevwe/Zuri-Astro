@@ -1,0 +1,60 @@
+---
+import heroImg1 from "../assets/heroImg1.png";
+import heroVector1 from "../assets/vector-1heroVector1.png";
+import heroImg2 from "../assets/heroImg2.png";
+import heroImg3 from "../assets/heroImg3.png";
+import heroImg4 from "../assets/heroImg4.png";
+---
+
+<section class="bg-[#DFCCC2] text-white pt-20 px-[4vw] pb-0 md:px-16">
+  <div class="flex flex-col mb-[10rem] justify-center items-center">
+    <div class="ml-auto relative z-10 mr-auto">
+      <p
+        class="absolute md:top-8 w-1/2 md:w-[80%] text-lg md:text-2xl z-20 -left-5 md:-left-40"
+      >
+        Hi, we are Debonaire. Ready to create an art form on your body.
+      </p>
+      <!-- hero image 1 -->
+      <div class="w-[80vw] max-w-[400px]">
+        <img src={heroImg1.src} alt="heroimg" class="w-full h-full" />
+      </div>
+      <!-- vector 1 -->
+      <div
+        class="absolute -bottom-16 -left-12 md:-left-16
+       -z-10 w-[50%] md:w-full"
+      >
+        <img src={heroVector1.src} alt="vector" />
+      </div>
+      <!-- hero image 2 -->
+      <div
+        class="absolute top-8 -right-[6rem] hidden md:block z-10
+       w-[40%] rounded-full"
+      >
+        <img src={heroImg2.src} alt="hero" class="w-full h-full rounded-full" />
+      </div>
+      <p
+        class="text-black w-[60%] absolute right-0 md:-right-[10rem] -bottom-[6rem] md:-bottom-[4rem]"
+      >
+        Debonaire is natural product-based, hair design & boutique.
+      </p>
+    </div>
+  </div>
+  <!-- hero image 3 -->
+  <div class="md:flex gap-8">
+    <div class="shrink-0">
+      <img src={heroImg3.src} alt="hero" />
+    </div>
+    <div class="mt-auto mb-auto">
+      <h3 class="text-2xl font-semibold mt-4">We’re focused.</h3>
+      <p class="text-black md:w-[50%]">
+        We provide an exceptional service by only focusing on hair designing.
+        Our goal is to provide a different type of experience by using
+        responsible products.
+      </p>
+    </div>
+  </div>
+  <!-- hero image 4 -->
+  <div class="ml-auto w-fit grid place-items-end  md:-mt-[5rem] relative -bottom-16 z-20">
+    <img src={heroImg4.src} alt="hero" class="w-[80%]" />
+  </div>
+</section>
